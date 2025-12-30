@@ -12,7 +12,7 @@ body {
     gap: 20px;
 }
 
-.column {
+.blog-column{
     background-color: #ffffff;
     padding: 15px;
     border-radius: 6px;
@@ -21,24 +21,24 @@ body {
     flex-direction: column;
 }
 
-.column h2 {
+.blog-column h2 {
     margin-bottom: 10px;
     font-size: 18px;
     border-bottom: 2px solid #ddd;
     padding-bottom: 5px;
 }
 
-.column ul {
+.blog-column ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
 }
 
-.column ul li {
+.blog-column ul li {
     padding: 8px 0;
     border-bottom: 1px solid #eee;
 }
 
-.column ul li:last-child {
+.blog-column ul li:last-child {
     border-bottom: none;
 }
